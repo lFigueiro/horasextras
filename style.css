@@ -1,0 +1,97 @@
+#listaRegistros{ display: none; }
+#cadastroRegistro{
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+body[page=lista] #listaRegistros{ display: block; }
+body[page=cadastro] #cadastroRegistro{ display: flex; }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #a7b4b5
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td{
+    font-size: 14px;
+    padding: 10px 15px;
+    border: solid 1px #ccc;
+}
+
+button{
+    border: none;
+    order-radius: 4px;
+    cursor: pointer;
+    background-color: #07a;
+    color: #fff;
+    margin: 3px;
+    padding: 10px 15px;
+}
+
+a.btao{
+    border: none;
+    order-radius: 4px;
+    cursor: pointer;
+    background-color: #07a;
+    color: #fff;
+    margin: 3px;
+    padding: 10px 15px;
+}
+}
+button.cinza{
+    background-color: #ccc;
+    color: #666;
+}
+button.vermelho{
+    background-color: #a00;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+input{
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.label>div{
+    display: flex;
+}
+.label>div>input{
+    flex: 1;
+}
+.container{
+    width: 300px;
+    height: 800px;
+    margin: 100px auto;
+    background: #a7b4b5;
+    position: center;
+}
+div.id
+{
+    background: #a7b4b5;
+}
+
+@media print{
+    .print.inputPesquisa {
+    display: none; 
+    }
+ }
+    .print{
+        color:transparent;
+        font-size:0;
+        width:50px;
+        height:50px;
+        border-radius: 10%;
+        position:fixed;
+        top: 90vh;
+        left: 80vw;
+    }

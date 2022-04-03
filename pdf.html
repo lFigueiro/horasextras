@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas Extras</title>
+    <script type='text/javascript' src="imprimir.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body page='lista'>
+    <header>
+        <h1 class="header-title">Horas extras dos funcionarios</h1>
+    </header>
+    <div id="dados">
+    <div id='listaRegistros'>
+
+        <div style='display: flex;'>
+            <input style='flex:1' placeholder="PESQUISAR" autofocus id='inputPesquisa' />
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nomes</th>
+                    <th>Horas extras trabalhadas</th>
+                    <th>Data</th>
+                    <th></th>   
+                </tr>
+            </thead>
+            <tbody id='listaRegistrosBody'></tbody>
+        </table>
+
+        <div>
+            
+            <input  type="image" class="print" value="Imprimir" img src="pdf.png" height ="80" width="100" onclick="funcao_pdf()">
+        </div>
+
+    </div>
+    <div class="container">
+    <form id='cadastroRegistro'>
+
+                <div class='id'>
+            <div></div>
+            <div>
+                <input type='hidden' readonly id='id'style="background: #a7b4b5" />
+            
+            
+            
+            
+        
+        <br>
+        <div class=''>
+            <div></div>
+            <div>
+                 
+            
+        
+
+        <div>
+        </div>
+    </div>
+    </form>
+
+</body>
+</html>
+
+
+
